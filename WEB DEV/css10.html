@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .navar {
+            background-color: rgb(177, 53, 53);
+            border-radius: 45px;
+            cursor: pointer;
+        }
+
+        .navar ul {
+            overflow: auto;
+
+        }
+
+        .navar li a {
+            padding: 3px 3px;
+            text-decoration: underline;
+            color: rgb(37, 228, 75);
+
+        }
+
+        .navar li a:hover {
+            color: blueviolet;
+        }
+
+        .navar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+
+        .search {
+            float: right;
+            /* color: rgb(93, 222, 179); */
+            padding: 12px 75px;
+        }
+
+        .navar input {
+            border: 2px solid black;
+            border-radius: 140px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navar">
+            <ul>
+                <li><a>
+                        Home
+                    </a></li>
+                <li><a>
+                        About
+                    </a></li>
+                <li><a>
+                        Services
+                    </a></li>
+                <li><a>
+                        Contact Us
+                    </a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search This Website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

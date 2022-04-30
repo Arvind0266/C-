@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector & more designing</title>
+<style>
+    .container{
+        border: 4px solid rgb(228, 116, 116);
+       padding: 34px;
+       margin: 34px auto ;
+        
+       background-color: aqua;
+       width: 666px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover
+    {
+color: red;
+/* background-color: rgb(160, 39, 236); */
+background-color: rgb(38, 211, 55);
+    }
+    a:visited{
+        color: rgb(149, 9, 230);
+        background-color: brown;
+    }
+    a:active{
+        background-color: beige;
+    }
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgreen;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+
+}
+.btn:hover{
+    color: blueviolet;
+    background-color: rgb(34, 46, 46);
+}
+</style>
+</head>
+<body>
+    <div id="cont1" class="container">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id distinctio saepe aliquam autem repudiandae, accusantium rem sequi molestiae voluptatum, architecto alias ratione. Culpa.</p>
+        <a href="https://www.amazon.in" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>
